@@ -1,6 +1,7 @@
 import { Injectable, OnModuleInit } from '@nestjs/common';
 import next from 'next';
 import { NextServer } from 'next/dist/server/next';
+import process from 'process';
 
 @Injectable()
 export class ViewService implements OnModuleInit {
