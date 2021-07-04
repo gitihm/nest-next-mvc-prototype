@@ -1,3 +1,4 @@
+
 {
   "compilerOptions": {
     "target": "es5",
@@ -20,8 +21,9 @@
   },
   "include": [
     "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
+    "next.config.js",
+    "pages/**/*.ts",
+    "pages/**/*.tsx"
   ],
   "exclude": [
     "node_modules"
